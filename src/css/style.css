@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    min-height: 100vh;
+}
+
+.card {
+    max-width: 500px;
+    min-width: 425px;
+    height: 300px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    gap: 35px;
+    padding-top: 70px;
+}
+
+.advice-id {
+    display: flex;
+    justify-content: center;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+.advice-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 0 35px;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    width: 100%;
+}
+
+.div-botao {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    transform: translateY(-10%);
+}
+
+.botao-estilo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+}
+
+@media (max-width: 425px) {
+    .div-botao {
+        display: flex;
+        justify-content: center;
+        transform: translateY(-35%);
+    }
+}
